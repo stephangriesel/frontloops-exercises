@@ -1,0 +1,64 @@
+body {
+    background-color: #16a085;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.card {
+    background-position-y: 220px;
+    background-position-x: center;
+    background-image: url(img/bicycle.png);
+    background-repeat: no-repeat;
+    background-color: #FFF;
+    background-size:550px 400px;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    height:500px;
+    width:80%;
+}
+
+.account > * {
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-weight:700;
+    width:100%;
+}
+
+.account {
+    margin-right:20px;
+    border: 1px solid black;
+}
+
+.card__item {
+    display:flex;
+    flex-direction:row;
+    justify-content: flex-start;
+    padding-top:40px;
+    padding-left:50px;
+}
+
+.card__title {
+    font-size:20px;
+    font-weight:700;
+    width:100%;
+}
+
+.card__item > *  {
+    vertical-align: middle;
+}
+
+.card__description {
+    color:#979797;
+}
+
+.card__price {
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-weight:700;
+    width:100%;
+    padding-right:20px;
+
+}
