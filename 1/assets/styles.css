@@ -1,0 +1,62 @@
+body {
+    margin:0;
+    padding:0;
+    background-color: #82ccdd;
+    font-family: Roboto;
+}
+
+.main {
+    margin:auto;
+    padding:0;
+    background-color: #FFFFFF;
+    box-shadow: 5px 10px 8px #645e5e;
+    position: absolute;
+    left:50%;
+    top:50%;
+    width:70%;
+    height:40%;
+    transform: translate(-50%, -50%);
+}
+
+.box {
+    width:33.3%;
+    height:100%;
+    float:left;
+    text-align: center;
+    transition: background-color 0.5s ease-in;
+}
+
+.box img {
+    padding:30px;
+    width:30%;
+}
+
+.box p {
+    padding:5%;
+}
+
+.box:hover {
+    background: #e7e2e2;
+}
+
+
+.dollar {
+    vertical-align: top;
+    font-size: 15px;
+}
+
+.month {
+    vertical-align: bottom;
+    font-size:15px;
+}
+
+h1 {
+    color:#82ccdd;
+    letter-spacing: 5px;
+    font-weight: 100;
+}
+
+h2 {
+    font-size: 30px;
+    color:#82ccdd;
+}
