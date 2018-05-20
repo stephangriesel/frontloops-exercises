@@ -1,0 +1,39 @@
+body {
+    margin:0;
+    padding:0;
+}
+
+.main {
+    margin:0;
+    padding:0;
+    background:url(img/background.jpg) no-repeat;
+    background-size: cover;
+    height:100vh;
+}
+
+.content {
+    background:#FFFFFF;
+    width:500px;
+    height:500px;
+    top:50%;
+    left:50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+
+.top-left {
+    float:left;
+    width:33.3%;
+}
+
+.top-middle {
+    float: left;
+    width:33.3%;
+    text-align: center;
+}
+
+.top-right {
+    float: left;
+    width:33.3%;
+    text-align:right;
+}
