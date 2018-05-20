@@ -26,6 +26,10 @@ body {
     width:33.3%;
 }
 
+h1, h3, h5, h6 {
+    margin:0;
+}
+
 .top-middle {
     float: left;
     width:33.3%;
@@ -54,4 +58,9 @@ body {
     float:left;
     width:33.3%;
     text-align: left;    
+}
+
+.text {
+    float:left;
+    width:50%;
 }
