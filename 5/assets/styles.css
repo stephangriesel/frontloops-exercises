@@ -37,3 +37,21 @@ body {
     width:33.3%;
     text-align:right;
 }
+
+.details-left {
+    float:left;
+    width:33.3%;
+    text-align: left;    
+}
+
+.details-middle {
+    float:left;
+    width:33.3%;
+    text-align: left;    
+}
+
+.details-right {
+    float:left;
+    width:33.3%;
+    text-align: left;    
+}
