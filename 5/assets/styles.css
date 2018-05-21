@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Passion+One:900');
+
 body {
     margin:0;
     padding:0;
@@ -13,18 +15,24 @@ body {
 
 .content {
     background:#FFFFFF;
-    width:500px;
-    height:500px;
+    width:400px;
+    height:300px;
     top:50%;
     left:50%;
     position: absolute;
     transform: translate(-50%,-50%);
+    padding:60px;
 }
 
 .top-left {
     float:left;
-    width:33.3%;
+    width:40%;
 }
+
+.top-left  h1 {
+    font-weight:900;
+}
+
 
 h1, h3, h5, h6 {
     margin:0;
@@ -32,14 +40,35 @@ h1, h3, h5, h6 {
 
 .top-middle {
     float: left;
-    width:33.3%;
+    width:20%;
     text-align: center;
+    font-size:30px;
+    color:#abcfe7
 }
 
 .top-right {
     float: left;
-    width:33.3%;
+    width:40%;
     text-align:right;
+}
+
+.country {
+    color:#3498db;
+    font-family: 'Passion One', cursive;
+    font-size:70px;
+    margin:0;
+    padding:0;
+}
+
+.city {
+    color:#979797;
+    font-weight:200;
+    text-transform: uppercase;
+    font-size:12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    top:-15px;
+    position: relative;
+
 }
 
 .details-left {
